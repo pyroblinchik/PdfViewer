@@ -2,3 +2,6 @@ jdk:
   - openjdk11
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
+install:
+  - FILE="-Dfile=pdf-viewer-1.0.1.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.pyroblinchik -DartifactId=PdfViewer -Dversion=1.0.1 -Dpackaging=aar -DgeneratePom=true

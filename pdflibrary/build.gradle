@@ -41,16 +41,13 @@ dependencies {
     api files("libs/lib_mupdf_1.11.1.jar")
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
+publishing {
+    publications {
+        maven(MavenPublication) {
 
-                groupId = 'com.github.pyroblinchik'
-                artifactId = 'pdf-viewer'
-                version = '1.0.12'
-            }
+            groupId = 'com.github.pyroblinchik'
+            artifactId = 'pdf-viewer'
+            version = '1.0.1'
         }
     }
 }
