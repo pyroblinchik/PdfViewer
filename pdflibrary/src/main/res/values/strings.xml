@@ -1,0 +1,8 @@
+<resources>
+    <string name="dismiss">Dismiss</string>
+    <string name="no_further_occurrences_found">No further occurrences found</string>
+    <string name="not_supported">Not supported</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="file_not_recognized">File not recognized</string>
+    <string name="choose_one_activity_to_open">Choose one activity to open</string>
+</resources>
