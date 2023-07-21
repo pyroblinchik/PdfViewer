@@ -25,8 +25,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -61,7 +61,7 @@ publishing {
 
             groupId = 'com.github.pyroblinchik'
             artifactId = 'pdf-viewer'
-            version = '1.0.6'
+            version = '1.0.7'
         }
     }
     repositories {
