@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.pyroblinchik</groupId>
   <artifactId>PdfViewer</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <packaging>pom</packaging>
   <description>Pdf lib for android</description>
 </project>
