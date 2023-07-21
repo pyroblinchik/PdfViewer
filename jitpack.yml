@@ -1,2 +1,5 @@
 jdk:
   - openjdk11
+install:
+  - FILE="-Dfile=pdflibrary-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.pyroblinchik -DartifactId=PdfViewer -Dversion=1.0.5 -Dpackaging=aar -DgeneratePom=true
