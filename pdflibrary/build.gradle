@@ -61,7 +61,7 @@ publishing {
 
             groupId = 'com.github.pyroblinchik'
             artifactId = 'pdf-viewer'
-            version = '1.0.11'
+            version = '1.0.12'
         }
     }
     repositories {
